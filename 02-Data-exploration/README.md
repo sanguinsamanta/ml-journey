@@ -61,7 +61,7 @@ The first few rows were inspected to understand the structure of the dataset.
 
 ### Dataset Preview
 
-[insert here]
+![Dataset Preview](images/dataset-preview.png)
 
 Missing values were then checked using:
 
@@ -71,7 +71,7 @@ pumpkins.isnull().sum()
 
 ### Missing Value Check
 
-[insert here]
+![Correlation Heatmap](images/missing-value.png)
 
 ---
 
@@ -188,7 +188,7 @@ plt.show()
 
 ### Output
 
-[insert here]
+![Scatter Plot](images/scatter-plot.png)
 
 ---
 
@@ -203,7 +203,7 @@ plt.ylabel("Pumpkin Price")
 
 ### Output
 
-[insert here]
+![Avg-Pumpkin-price](images/Avg-Pumpkin-price.png)
 
 ---
 
@@ -223,33 +223,7 @@ sns.relplot(
 )
 ```
 
-[insert here]
-
-### Line Plot
-
-```python
-sns.relplot(
-    x="Price",
-    y="Month",
-    kind="line",
-    data=new_pumpkins
-)
-```
-
-[insert here]
-
-### Bar Plot
-
-```python
-sns.catplot(
-    x="Month",
-    y="Price",
-    data=new_pumpkins,
-    kind="bar"
-)
-```
-
-[insert here]
+![Relationship Plot](images/rel-plot.png)
 
 ---
 
@@ -322,7 +296,7 @@ This exercise also helped me understand that **data preprocessing and exploratio
 ├── US-pumpkins.csv
 │   
 └── images/
-    └── [optional screenshots]
+    └── [screenshots]
 ```
 
 ---
